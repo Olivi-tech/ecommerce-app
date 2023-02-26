@@ -24,8 +24,11 @@ ThemeData theme(BuildContext context) {
             .headlineSmall!
             .copyWith(color: Colors.white)),
     textTheme: const TextTheme(
-      titleSmall:
-          TextStyle(fontSize: 16, color: Colors.white, wordSpacing: 0.5),
+      titleSmall: TextStyle(
+          fontSize: 16,
+          color: Colors.white,
+          wordSpacing: 0.5,
+          fontWeight: FontWeight.bold),
       titleMedium:
           TextStyle(fontSize: 18, color: Colors.white, wordSpacing: 0.5),
       titleLarge:
