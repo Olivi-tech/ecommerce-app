@@ -2,6 +2,6 @@
 
 import 'package:geolocator/geolocator.dart';
 
-abstract class BaseGeolocationRepository {
+abstract class BaseGeoLocationRepository {
   Future<Position?> getCurrentLocation();
 }
